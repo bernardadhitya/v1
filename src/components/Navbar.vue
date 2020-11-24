@@ -6,13 +6,13 @@
           <div></div>
         </b-col>
         <b-col>
-          <h4 class="text-extra-margin">About Me</h4>
+          <div class="text-extra-margin">About Me</div>
         </b-col>
         <b-col>
-          <h4 class="text-extra-margin">Featured</h4>
+          <div class="text-extra-margin">Featured</div>
         </b-col>
         <b-col>
-          <h4 class="text-extra-margin">Projects</h4>
+          <div class="text-extra-margin">Projects</div>
         </b-col>
         <b-col>
           <b-btn variant="outline-primary">Resume</b-btn>
@@ -42,7 +42,18 @@ export default {
   -webkit-box-shadow: 0px 2px 9px 4px rgba(216,216,216,0.5);
   -moz-box-shadow: 0px 2px 9px 4px rgba(216,216,216,0.5);
 }
-.text-extra-margin{
-  margin-top: 8px;
+@media only screen and (max-width: 768px) {
+  .text-extra-margin{
+    margin-top: 12px;
+    font-family: 'SemiBold';
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .text-extra-margin{
+    margin-top: 8px;
+    font-family: 'SemiBold';
+    font-size: 18px;
+  }
 }
 </style>
