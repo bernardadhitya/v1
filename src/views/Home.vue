@@ -1,5 +1,6 @@
 <template>
   <div id="bootstrap-override" class="fluid-padding">
+    <Navbar/>
     <Introduction/>
     <AboutMe/>
     <FeaturedProjects/>
@@ -21,6 +22,7 @@
 </style>
 
 <script>
+import Navbar from '../components/Navbar.vue';
 import AboutMe from '../components/AboutMe.vue';
 import FeaturedProjects from '../components/FeaturedProjects.vue';
 import Introduction from '../components/Introduction.vue';
@@ -29,6 +31,7 @@ import OtherProjects from '../components/OtherProjects.vue';
 export default {
   name: 'home',
   components: {
+    Navbar,
     Introduction,
     AboutMe,
     FeaturedProjects,
