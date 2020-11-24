@@ -3,7 +3,7 @@
     <b-container fluid>
       <b-row>
         <b-col>
-          <h2>👋🏽 Hi, my name is</h2>
+          <h4>👋🏽 Hi, my name is</h4>
         </b-col>
       </b-row>
       <b-row>
@@ -37,8 +37,12 @@ export default {
     font-size: 60px !important;
     color: #A55BF2;
   }
-  h2{
+  h4{
     font-family: 'Bold';
     font-size: 18px !important;
+  }
+  p{
+    font-family: 'Regular';
+    font-size: 16px !important;
   }
 </style>
