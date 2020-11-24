@@ -45,4 +45,40 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+h1{
+  font-family: 'Bold';
+  font-size: 60px !important;
+  color: #A55BF2;
+}
+
+h2{
+  font-family: 'Bold';
+  font-size: 36px !important;
+}
+
+h3{
+  font-family: 'Bold';
+  font-size: 21px !important;
+}
+
+h4{
+  font-family: 'Bold';
+  font-size: 18px !important;
+}
+
+h5{
+  font-family: 'Medium';
+  font-size: 14px !important;
+}
+
+h6{
+  font-family: 'SemiBold';
+  font-size: 12px !important;
+}
+
+p{
+  font-family: 'Regular';
+  font-size: 16px !important;
+}
 </style>

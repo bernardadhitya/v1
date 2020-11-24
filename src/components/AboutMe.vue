@@ -30,14 +30,6 @@ export default {
 </script>
 
 <style>
-  h3{
-    font-family: 'Bold';
-    font-size: 21px !important;
-  }
-  p{
-    font-family: 'Regular';
-    font-size: 16px !important;
-  }
   .section-margin{
     margin: 250px 0;
   }

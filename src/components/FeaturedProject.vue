@@ -58,22 +58,6 @@ export default {
 </script>
 
 <style>
-  h2{
-    font-family: 'Bold';
-    font-size: 36px !important;
-  }
-  h5{
-    font-family: 'Medium';
-    font-size: 14px !important;
-  }
-  h6{
-    font-family: 'SemiBold';
-    font-size: 12px !important;
-  }
-  p{
-    font-family: 'Regular';
-    font-size: 16px !important;
-  }
   .featured-project-number{
     font-family: 'Regular';
     font-size: 36px;

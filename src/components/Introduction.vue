@@ -32,17 +32,4 @@ export default {
   .section-margin{
     margin: 250px 0;
   }
-  h1{
-    font-family: 'Bold';
-    font-size: 60px !important;
-    color: #A55BF2;
-  }
-  h4{
-    font-family: 'Bold';
-    font-size: 18px !important;
-  }
-  p{
-    font-family: 'Regular';
-    font-size: 16px !important;
-  }
 </style>
