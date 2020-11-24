@@ -3,7 +3,11 @@
     <b-container>
       <b-row>
         <b-col>
-          
+          <div class="card-wrapper">
+            <h4 class="left-align">react-boilerplate</h4>
+            <p class="left-align">A simple react-express boilerplate, with navigation template</p>
+            <h5 class="right-align color-purple">Go to repository</h5>
+          </div>
         </b-col>
       </b-row>
     </b-container>
@@ -12,10 +16,17 @@
 
 <script>
 export default {
-
-}
+  name: 'OtherProject',
+};
 </script>
 
 <style>
-
+.card-wrapper{
+  margin: 24px 0;
+  padding: 16px 16px 8px 16px;
+  border-radius: 16px;
+  box-shadow: 0px 2px 9px 4px rgba(216,216,216,0.5);
+  -webkit-box-shadow: 0px 2px 9px 4px rgba(216,216,216,0.5);
+  -moz-box-shadow: 0px 2px 9px 4px rgba(216,216,216,0.5);
+}
 </style>

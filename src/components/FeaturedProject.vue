@@ -2,17 +2,15 @@
   <div>
     <b-container>
       <b-row>
-        <b-col>
+        <b-col cols="12" md="5">
           <div class="image-wrapper">
             <img src="../assets/images/homerooom-thumbnail.png" width="100%"/>
           </div>
         </b-col>
-      </b-row>
-      <b-row>
-        <b-col cols="2">
+        <b-col cols="2" md="1">
           <div class="featured-project-number color-purple">01.</div>
         </b-col>
-        <b-col cols="10">
+        <b-col cols="10" md="6">
           <b-row>
             <b-col>
               <h5 class="color-purple left-align">Featured Project</h5>
@@ -61,15 +59,6 @@ export default {
   .featured-project-number{
     font-family: 'Regular';
     font-size: 36px;
-  }
-  .color-purple{
-    color: #A55BF2;
-  }
-  .left-align{
-    text-align: left;
-  }
-  .right-align{
-    text-align: right;
   }
   .card-wrapper{
     margin: 24px 0;

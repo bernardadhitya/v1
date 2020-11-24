@@ -3,7 +3,7 @@
     <b-container>
       <b-row>
         <b-col>
-          <h2>🔨 What I’ve built</h2>
+          <h2 class="section-title-padding">🔨 What I’ve built</h2>
         </b-col>
       </b-row>
       <b-row>
@@ -35,10 +35,6 @@ export default {
 </script>
 
 <style>
-  h2{
-    font-family: 'Bold';
-    font-size: 21px !important;
-  }
   .section-margin{
     margin: 250px 0;
   }
