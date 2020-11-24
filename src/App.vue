@@ -46,28 +46,28 @@
   color: #42b983;
 }
 
-h1{
+/* h1{
   font-family: 'Bold';
   font-size: 60px !important;
   color: #A55BF2;
-}
+} */
 
-h2{
+h1{
   font-family: 'Bold';
   font-size: 36px !important;
 }
 
-h3{
+h2{
   font-family: 'Bold';
   font-size: 21px !important;
 }
 
-h4{
+h3{
   font-family: 'Bold';
   font-size: 18px !important;
 }
 
-h5{
+h4{
   font-family: 'Medium';
   font-size: 14px !important;
 }

@@ -20,7 +20,7 @@
           </b-row>
           <b-row>
             <b-col>
-              <h2 class="left-align">Homerooom</h2>
+              <h1 class="left-align">Homerooom</h1>
             </b-col>
           </b-row>
           <b-row>

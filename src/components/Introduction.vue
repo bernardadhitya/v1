@@ -3,7 +3,7 @@
     <b-container fluid>
       <b-row>
         <b-col>
-          <h4>👋🏽 Hi, my name is</h4>
+          <h3>👋🏽 Hi, my name is</h3>
         </b-col>
       </b-row>
       <b-row>
