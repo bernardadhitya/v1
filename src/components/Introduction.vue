@@ -1,5 +1,5 @@
 <template>
-  <div class='section-margin'>
+  <div class='title-section-margin'>
     <b-container fluid>
       <b-row>
         <b-col xs="12" md="6">
@@ -16,6 +16,12 @@
           <p class="auto-align">
             Welcome to my portfolio website. I am a software developer, based in Jakarta, Indonesia. I specialize in creating web application, mobile apps, and UI/UX design.
           </p>
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col class="icons-wrapper">
+          <img src="../assets/images/github-icon.png"/>
+          <img src="../assets/images/linkedin-icon.png"/>
         </b-col>
       </b-row>
       <b-row >
@@ -37,8 +43,11 @@ export default {
 
 <style>
 @media only screen and (max-width: 768px) {
+  .title-section-margin{
+    margin: 150px 0 250px 0;
+  }
   .profile-image-introduction{
-    margin-top: 100px;
+    margin-top: 50px;
   }
   .title-name{
     font-family: 'Bold';
@@ -50,6 +59,9 @@ export default {
   }
 }
 @media only screen and (min-width: 769px) {
+  .title-section-margin{
+    margin: 225px 0;
+  }
   .profile-image-introduction{
     display: none;
   }
@@ -61,8 +73,11 @@ export default {
   .auto-align{
     text-align: left;
   }
+  .icons-wrapper{
+    text-align: left;
+  }
 }
-.section-margin{
-  margin: 250px 0;
+.icons-wrapper img{
+  padding: 10px;
 }
 </style>

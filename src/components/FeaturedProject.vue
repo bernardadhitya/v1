@@ -9,6 +9,7 @@
         </b-col>
         <b-col cols="2" md="1">
           <div class="featured-project-number color-purple">01.</div>
+          <div class="purple-line"></div>
         </b-col>
         <b-col cols="10" md="6">
           <b-row>
@@ -75,5 +76,16 @@ export default {
   .button-wrapper{
     text-align: right;
     margin-bottom: 40px;
+  }
+  .purple-line{
+    background: linear-gradient(
+      180deg,
+      rgba(165,91,242,1) 0%,
+      rgba(165,91,242,0.5) 50%,
+      rgba(255,255,255,0) 100%
+    );
+    width: 3px;
+    height: 75%;
+    margin: 0 21px;
   }
 </style>

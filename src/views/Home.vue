@@ -15,7 +15,7 @@
 }
 @media only screen and (min-width: 769px) {
   .fluid-padding{
-    padding: 0 60px;
+    padding: 0 80px;
   }
 }
 </style>
