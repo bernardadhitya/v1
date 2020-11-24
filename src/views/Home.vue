@@ -2,15 +2,13 @@
   <div class="home">
     <Introduction/>
     <AboutMe/>
-    <FeaturedProject/>
-    <FeaturedProject/>
-    <FeaturedProject/>
+    <FeaturedProjects/>
   </div>
 </template>
 
 <script>
 import AboutMe from '../components/AboutMe.vue';
-import FeaturedProject from '../components/FeaturedProject.vue';
+import FeaturedProjects from '../components/FeaturedProjects.vue';
 // @ is an alias to /src
 import Introduction from '../components/Introduction.vue';
 
@@ -19,7 +17,7 @@ export default {
   components: {
     Introduction,
     AboutMe,
-    FeaturedProject,
+    FeaturedProjects,
   },
 };
 </script>
