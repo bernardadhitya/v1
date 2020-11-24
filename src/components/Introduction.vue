@@ -8,7 +8,7 @@
       </b-row>
       <b-row>
         <b-col>
-          <h1>&#60;Bernard /&#62;</h1>
+          <div class="title-name">&#60;Bernard /&#62;</div>
         </b-col>
       </b-row>
       <b-row>
@@ -29,6 +29,11 @@ export default {
 </script>
 
 <style>
+  .title-name{
+    font-family: 'Bold';
+    font-size: 60px !important;
+    color: #A55BF2;
+  }
   .section-margin{
     margin: 250px 0;
   }
