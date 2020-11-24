@@ -3,7 +3,7 @@
     <b-container fluid>
       <b-row>
         <b-col xs="12" md="6">
-          <h3 class="auto-align">👋🏽 Hi, my name is</h3>
+          <h3 id="intro-header" class="auto-align">👋🏽 Hi, my name is</h3>
         </b-col>
       </b-row>
       <b-row>

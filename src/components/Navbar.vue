@@ -1,24 +1,11 @@
 <template>
   <div class="navbar-wrapper">
-    <b-container>
-      <b-row>
-        <b-col cols="0" md="6">
-          <div></div>
-        </b-col>
-        <b-col>
-          <div class="text-extra-margin">About Me</div>
-        </b-col>
-        <b-col>
-          <div class="text-extra-margin">Featured</div>
-        </b-col>
-        <b-col>
-          <div class="text-extra-margin">Projects</div>
-        </b-col>
-        <b-col>
-          <b-btn variant="outline-primary">Resume</b-btn>
-        </b-col>
-      </b-row>
-    </b-container>
+    <scrollactive class="my-nav" :offset="150">
+      <a href="#intro-header" class="scrollactive-item">Intro</a>
+      <a href="#about-header" class="scrollactive-item">About me</a>
+      <a href="#featured-header" class="scrollactive-item">Featured</a>
+      <a href="#other-header" class="scrollactive-item">Projects</a>
+    </scrollactive>
   </div>
 </template>
 
@@ -48,6 +35,9 @@ export default {
     font-family: 'SemiBold';
     font-size: 12px;
   }
+  .my-nav{
+    text-align: center;
+  }
 }
 @media only screen and (min-width: 769px) {
   .text-extra-margin{
@@ -55,5 +45,14 @@ export default {
     font-family: 'SemiBold';
     font-size: 18px;
   }
+  .my-nav{
+    text-align: right;
+  }
+}
+
+.scrollactive-item{
+  margin: 0 10px;
+  font-family: 'SemiBold';
+  color: #323232;
 }
 </style>

@@ -3,7 +3,7 @@
     <b-container fluid>
       <b-row>
         <b-col xs="12" md="6">
-          <h2 class="section-title-padding auto-align">👀 About me</h2>
+          <h2 id="about-header" class="section-title-padding auto-align">👀 About me</h2>
         </b-col>
       </b-row>
       <b-row>

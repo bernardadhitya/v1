@@ -3,7 +3,7 @@
     <b-container>
       <b-row>
         <b-col>
-          <h2 class="section-title-padding">🔨 What I’ve built</h2>
+          <h2 id="featured-header" class="section-title-padding">🔨 What I’ve built</h2>
         </b-col>
       </b-row>
       <b-row>
