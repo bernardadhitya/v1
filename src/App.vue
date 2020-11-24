@@ -1,14 +1,31 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view/>
   </div>
 </template>
 
 <style>
+@font-face {
+  font-family: "Bold";
+  src: url(./assets/fonts/Galano-Grotesque-Bold.otf);
+}
+@font-face {
+  font-family: "ExtraBold";
+  src: url(./assets/fonts/Galano-Grotesque-Extra-Bold.otf);
+}
+@font-face {
+  font-family: "Medium";
+  src: url(./assets/fonts/Galano-Grotesque-Medium.otf);
+}
+@font-face {
+  font-family: "SemiBold";
+  src: url(./assets/fonts/Galano-Grotesque-Semi-Bold.otf);
+}
+@font-face {
+  font-family: "Regular";
+  src: url(./assets/fonts/Galano-Grotesque.otf);
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
