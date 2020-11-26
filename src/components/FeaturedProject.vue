@@ -4,11 +4,11 @@
       <b-row>
         <b-col cols="12" md="5">
           <div class="image-wrapper">
-            <img src="../assets/images/homerooom-thumbnail.png" width="100%"/>
+            <img :src="require(`../assets/images/${this.thumbnail}`)" width="100%"/>
           </div>
         </b-col>
         <b-col cols="2" md="1">
-          <div class="featured-project-number color-purple">01.</div>
+          <div class="featured-project-number color-purple">{{ this.id }}</div>
           <div class="purple-line"></div>
         </b-col>
         <b-col cols="10" md="6">
@@ -19,14 +19,14 @@
           </b-row>
           <b-row>
             <b-col>
-              <h1 class="left-align">Homerooom</h1>
+              <h1 class="left-align">{{ this.title }}</h1>
             </b-col>
           </b-row>
           <b-row>
             <b-col>
               <div class="card-wrapper">
                 <p class="left-align">
-                  An all-in-one mobile app solution for online learning. Made with React Native and Firebase
+                  {{ this.description }}
                 </p>
               </div>
             </b-col>
@@ -34,7 +34,7 @@
           <b-row>
             <b-col>
               <h6 class="right-align">Techs used:</h6>
-              <p class="color-purple right-align">React Native, Firebase</p>
+              <p class="color-purple right-align">{{ this.tags.join(', ') }}</p>
             </b-col>
           </b-row>
           <b-row>
@@ -53,6 +53,7 @@
 <script>
 export default {
   name: 'FeaturedProject',
+  props: ['id', 'title', 'description', 'tags', 'thumbnail'],
 };
 </script>
 
