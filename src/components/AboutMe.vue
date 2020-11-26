@@ -1,13 +1,13 @@
 <template>
   <div class='section-margin'>
     <b-container fluid>
-      <b-row>
-        <b-col xs="12" md="6">
+      <b-row align-h="center">
+        <b-col xs="12" md="6" align-self="center">
           <h2 id="about-header" class="section-title-padding auto-align">👀 About me</h2>
         </b-col>
       </b-row>
-      <b-row>
-        <b-col xs="12" md="6">
+      <b-row align-h="center">
+        <b-col xs="12" md="6" align-self="center">
           <p class="auto-align">
             Hi! My name is Bernard, I’m a software engineer based in Jakarta, Indonesia.
           </p>
@@ -19,8 +19,8 @@
           </p>
         </b-col>
       </b-row>
-      <b-row>
-        <b-col xs="12" md="6">
+      <b-row align-h="center">
+        <b-col xs="12" md="6" align-self="center">
           <div class="skills-logo-image-wrapper">
             <img src="../assets/images/skills-logo.png"/>
           </div>
@@ -53,7 +53,7 @@ export default {
       width: 60%;
     }
     .auto-align{
-      text-align: left;
+      text-align: center;
     }
   }
 </style>
