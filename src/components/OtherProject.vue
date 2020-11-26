@@ -3,7 +3,8 @@
     <b-container>
       <b-row>
         <b-col>
-          <div class="card-wrapper">
+          <div
+            class="card-wrapper">
             <h4 class="left-align">{{ this.title }}</h4>
             <p class="left-align">{{ this.description }}</p>
             <a :href="this.link">

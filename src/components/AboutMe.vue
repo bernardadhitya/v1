@@ -14,14 +14,23 @@
           <p class="auto-align">
             Thorough my journey, I’ve competed at various coding competitions; competitive programming and hackathons. I’ve aslo became a part-time teacher at a coding school for kids, and an intern at a bank in Indonesia.
           </p>
-          <p class="auto-align">
-            Here are some technologies I’ve used in my journey;
-          </p>
         </b-col>
       </b-row>
       <b-row align-h="center">
         <b-col xs="12" md="6" align-self="center">
-          <div class="skills-logo-image-wrapper">
+          <div
+            class="skills-logo-image-wrapper"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="400"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center"
+          >
+          <p class="auto-align">
+            Here are some technologies I’ve used in my journey;
+          </p>
             <img src="../assets/images/skills-logo.png"/>
           </div>
         </b-col>

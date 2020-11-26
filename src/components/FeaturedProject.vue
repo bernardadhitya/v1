@@ -3,7 +3,16 @@
     <b-container>
       <b-row align-h="center">
         <b-col cols="12" md="5">
-          <div class="image-wrapper">
+          <div
+            class="image-wrapper"
+            data-aos="flip-up"
+            data-aos-delay="50"
+            data-aos-duration="250"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center"
+          >
             <img :src="require(`../assets/images/${this.thumbnail}`)" width="100%"/>
           </div>
         </b-col>
