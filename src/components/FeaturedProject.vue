@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-container>
-      <b-row>
+      <b-row align-h="center">
         <b-col cols="12" md="5">
           <div class="image-wrapper">
             <img :src="require(`../assets/images/${this.thumbnail}`)" width="100%"/>
@@ -11,7 +11,7 @@
           <div class="featured-project-number color-purple">{{ this.id }}</div>
           <div class="purple-line"></div>
         </b-col>
-        <b-col cols="10" md="6">
+        <b-col cols="10" md="5">
           <b-row>
             <b-col>
               <h5 class="color-purple left-align">Featured Project</h5>
