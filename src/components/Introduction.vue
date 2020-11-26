@@ -20,8 +20,12 @@
       </b-row>
       <b-row>
         <b-col class="icons-wrapper">
-          <img src="../assets/images/github-icon.png"/>
-          <img src="../assets/images/linkedin-icon.png"/>
+          <a href="https://github.com/bernardadhitya">
+            <img src="../assets/images/github-icon.png"/>
+          </a>
+          <a href="https://www.linkedin.com/in/bernard-adhitya-k-a98618144/">
+            <img src="../assets/images/linkedin-icon.png"/>
+          </a>
         </b-col>
       </b-row>
       <b-row >
