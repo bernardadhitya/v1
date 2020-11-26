@@ -14,6 +14,7 @@
             :description="featuredProject.description"
             :tags="featuredProject.tags"
             :thumbnail="featuredProject.thumbnail"
+            :link="featuredProject.link"
           />
         </b-col>
       </b-row>

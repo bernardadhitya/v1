@@ -4,9 +4,11 @@
       <b-row>
         <b-col>
           <div class="card-wrapper">
-            <h4 class="left-align">react-boilerplate</h4>
-            <p class="left-align">A simple react-express boilerplate, with navigation template</p>
-            <h5 class="right-align color-purple">Go to repository</h5>
+            <h4 class="left-align">{{ this.title }}</h4>
+            <p class="left-align">{{ this.description }}</p>
+            <a :href="this.link">
+              <h5 class="right-align color-purple">Go to repository</h5>
+            </a>
           </div>
         </b-col>
       </b-row>
@@ -17,6 +19,7 @@
 <script>
 export default {
   name: 'OtherProject',
+  props: ['title', 'description', 'link'],
 };
 </script>
 

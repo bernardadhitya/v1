@@ -7,23 +7,12 @@
         </b-col>
       </b-row>
       <b-row>
-        <b-col cols="12" md="4">
-          <OtherProject/>
-        </b-col>
-        <b-col cols="12" md="4">
-          <OtherProject/>
-        </b-col>
-        <b-col cols="12" md="4">
-          <OtherProject/>
-        </b-col>
-        <b-col cols="12" md="4">
-          <OtherProject/>
-        </b-col>
-        <b-col cols="12" md="4">
-          <OtherProject/>
-        </b-col>
-        <b-col cols="12" md="4">
-          <OtherProject/>
+        <b-col cols="12" md="4" v-for="otherProject in otherProjects" :key="otherProject.id">
+          <OtherProject
+            :title="otherProject.title"
+            :description="otherProject.description"
+            :link="otherProject.link"
+          />
         </b-col>
       </b-row>
     </b-container>
@@ -36,9 +25,6 @@ import OtherProject from './OtherProject.vue';
 export default {
   name: 'OtherProjects',
   components: { OtherProject },
-}
+  props: ['otherProjects'],
+};
 </script>
-
-<style>
-
-</style>

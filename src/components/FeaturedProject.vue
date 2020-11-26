@@ -40,7 +40,10 @@
           <b-row>
             <b-col>
               <div class="button-wrapper">
-                <b-btn variant="outline-primary">Go to repository</b-btn>
+                <b-btn
+                  variant="outline-primary"
+                  :href="this.link"
+                >Go to repository</b-btn>
               </div>
             </b-col>
           </b-row>
@@ -53,7 +56,7 @@
 <script>
 export default {
   name: 'FeaturedProject',
-  props: ['id', 'title', 'description', 'tags', 'thumbnail'],
+  props: ['id', 'title', 'description', 'tags', 'thumbnail', 'link'],
 };
 </script>
 

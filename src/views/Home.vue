@@ -4,7 +4,7 @@
     <Introduction/>
     <AboutMe/>
     <FeaturedProjects :featuredProjects="featuredProjects"/>
-    <OtherProjects/>
+    <OtherProjects :otherProjects="otherProjects"/>
   </div>
 </template>
 
@@ -28,16 +28,19 @@ import FeaturedProjects from '../components/FeaturedProjects.vue';
 import Introduction from '../components/Introduction.vue';
 import OtherProjects from '../components/OtherProjects.vue';
 import featuredProjectsList from '../constants/FeaturedProjects';
+import otherProjectsList from '../constants/OtherProjects';
 
 export default {
   name: 'home',
   data() {
     return {
       featuredProjects: [],
+      otherProjects: [],
     };
   },
   async created() {
     this.featuredProjects = featuredProjectsList;
+    this.otherProjects = otherProjectsList;
   },
   components: {
     Navbar,
