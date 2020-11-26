@@ -48,7 +48,7 @@ export default {
 <style>
 @media only screen and (max-width: 768px) {
   .title-section-margin{
-    margin: 150px 0 250px 0;
+    margin: 150px 0;
   }
   .profile-image-introduction{
     margin-top: 50px;
@@ -64,7 +64,7 @@ export default {
 }
 @media only screen and (min-width: 769px) {
   .title-section-margin{
-    margin: 225px 0;
+    margin: 200px 0;
   }
   .title-name{
     font-family: 'Bold';

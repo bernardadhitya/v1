@@ -1,5 +1,5 @@
 <template>
-  <div class="section-margin">
+  <div class="featured-section-margin">
     <b-container>
       <b-row>
         <b-col>
@@ -33,7 +33,7 @@ export default {
 </script>
 
 <style>
-  .section-margin{
+  .featured-section-margin{
     margin: 250px 0;
   }
 </style>

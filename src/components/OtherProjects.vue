@@ -1,5 +1,5 @@
 <template>
-  <div class="section-margin">
+  <div class="others-section-margin">
     <b-container>
       <b-row>
         <b-col>
@@ -28,3 +28,9 @@ export default {
   props: ['otherProjects'],
 };
 </script>
+
+<style>
+.others-section-margin{
+  margin-bottom: 100px
+}
+</style>

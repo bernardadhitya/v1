@@ -1,5 +1,5 @@
 <template>
-  <div class='section-margin'>
+  <div class='aboutme-section-margin'>
     <b-container fluid>
       <b-row align-h="center">
         <b-col xs="12" md="6" align-self="center">
@@ -37,15 +37,15 @@ export default {
 </script>
 
 <style>
-  .section-margin{
-    margin: 250px 0;
-  }
   @media only screen and (max-width: 768px) {
     .skills-logo-image-wrapper img{
       width: 100%;
     }
     .auto-align{
       text-align: center;
+    }
+    .aboutme-section-margin{
+      margin: 0;
     }
   }
   @media only screen and (min-width: 769px) {
@@ -54,6 +54,9 @@ export default {
     }
     .auto-align{
       text-align: center;
+    }
+    .aboutme-section-margin{
+      margin: 250px 0;
     }
   }
 </style>
