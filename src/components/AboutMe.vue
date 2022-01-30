@@ -12,7 +12,7 @@
             Hi! My name is Bernard, I’m a software engineer based in Jakarta, Indonesia.
           </p>
           <p class="auto-align">
-            Thorough my journey, I’ve competed at various coding competitions; competitive programming and hackathons. I’ve aslo became a part-time teacher at a coding school for kids, and an intern at a bank in Indonesia.
+            Thorough my journey, I’ve competed at various coding competitions; competitive programming and hackathons. I’ve also became a part-time teacher at a coding school for kids, and an intern at a bank in Indonesia.
           </p>
         </b-col>
       </b-row>
@@ -28,9 +28,9 @@
             data-aos-once="false"
             data-aos-anchor-placement="top-center"
           >
-          <p class="auto-align">
-            Here are some technologies I’ve used in my journey;
-          </p>
+            <p class="auto-align">
+              Here are some technologies I’ve used in my journey;
+            </p>
             <img src="../assets/images/skills-logo.png"/>
           </div>
         </b-col>

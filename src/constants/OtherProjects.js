@@ -1,18 +1,18 @@
 const otherProjectsList = [
   {
-    title: 'react-boilerplate',
-    description: 'A simple react-express boilerplate, with navigation template',
-    link: 'https://github.com/bernardadhitya/react-boilerplate',
+    title: 'gig-job-react',
+    description: 'A React application to search for gig-workers',
+    link: 'https://github.com/bernardadhitya/gig-job-react',
   },
   {
-    title: 'express-boilerplate',
-    description: 'A simple express boilerplate with ES6 support',
-    link: 'https://github.com/bernardadhitya/express-boilerplate',
+    title: 'kitchen-price-react ',
+    description: 'A kitchenware price comparator from major marketplaces in Indonesia with React',
+    link: 'https://github.com/bernardadhitya/kitchen-price-react',
   },
   {
-    title: 'eventonthego',
-    description: 'VueJS-based application that allows users to held an event by hiring teams, venues and…',
-    link: 'https://github.com/bernardadhitya/eventonthego',
+    title: 'death-archive-react',
+    description: 'A death archive application used by hospitals with React and Postgresql',
+    link: 'https://github.com/bernardadhitya/death-archive-react',
   },
   {
     title: 'klifomaya',
@@ -20,14 +20,14 @@ const otherProjectsList = [
     link: 'https://github.com/bernardadhitya/klifomaya',
   },
   {
-    title: 'java_chess',
-    description: 'This is my attempt on creating an object oriented programming-based chess game. A simple…',
-    link: 'https://github.com/bernardadhitya/java_chess',
+    title: 'news-tweet-classification',
+    description: 'Classify news tweets using K-Nearest Neighbor and visualize in React',
+    link: 'https://github.com/bernardadhitya/news-tweet-classification',
   },
   {
-    title: 'funstay',
-    description: 'FunStay is a web-based application, meant to promote homestay experience…',
-    link: 'https://github.com/bernardadhitya/funstay',
+    title: 'garden-react-app',
+    description: 'Gardening website based on React.js',
+    link: 'https://github.com/bernardadhitya/garden-react-app ',
   },
 ];
 
